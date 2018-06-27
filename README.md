@@ -11,7 +11,7 @@ Listado de los distintos proyectos que estan en esta pagina
   2. [Instalacion 3scale 2.22 en Minishift](./instalacion_3scale_2.22_en_minishift.md)
   3. [Instalacion 3scale 2.22 on Premise](./instalacion_3scale_2.22_on_premise.md)
 * Cloud
-  1. [Wordpress_en_GCE](./wordpress_en_gce.md)
+  1. [Wordpress en GCE](./wordpress_en_gce.md)
 * Django
   1. [Crear entorno Django en Debian Stretch](./crear_entorno_django_en_debian9.md)
   2. [Configurar Django y crear el primer Proyecto](./configurar_django_y_crear_el_primer_proyecto.md)
