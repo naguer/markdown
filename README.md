@@ -17,10 +17,10 @@ Listado de los distintos proyectos que estan en esta pagina
   2. [Configurar Django y crear el primer Proyecto](./configurar_django_y_crear_el_primer_proyecto.md)
   3. [Crear primera aplicacion Django](./crear_primera_aplicacion_django.md)
 
-## Para realizar estas notas se utilizaron las siguientes herramientas
+## Para realizar esta documentacion se utilizaron las siguientes herramientas
 
 * [Typora](http://typora.io) - Editor Markdown multiplataforma
-* [Vim](https://www.vim.org) - Editor de texto de consola
+* [Vim](https://www.vim.org) - Editor de texto
 
 ## Autor
 
