@@ -40,7 +40,7 @@ spec:                                                                           
 	capacity:                                                                                   		storage: 5Gi                                                                       
 	nfs:                                                                                  
 		path: /export/noprod_OCP-3SCALE-1
-		server: openshiftnfs.bancogalicia.com.ar
+		server: openshiftnfs.xxxxx.com.ar
 	persistentVolumeReclaimPolicy: Recycle
 ```
 
@@ -78,7 +78,7 @@ oc project 3scale-api-manager
 
 ```
 wget https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/master/amp/amp.yml
-oc new-app --file amp.yml --param WILDACARD_DOMAIN=devopenshift.bancogalicia.com.ar
+oc new-app --file amp.yml --param WILDACARD_DOMAIN=devopenshift.xxxx.com.ar
 ```
 
 
@@ -89,7 +89,7 @@ Salida de ejemplo:
 --> Deploying template "3scale-api-manager/3scale-api-management" for "./amp.yml" to project 3scale-api-manager                                                                           3scale API Management
 ---------
 3scale API Management main system
-Login on https://3scale-admin.devopenshift.bancogalicia.com.ar as admin/XXXX
+Login on https://3scale-admin.devopenshift.xxxx.com.ar as admin/XXXX
 * With parameters:
 * PostgreSQL Connection Password=XXXXA # generated
 * ZYNC_SECRET_KEY_BASE=XXXXX # generated
@@ -99,7 +99,7 @@ Login on https://3scale-admin.devopenshift.bancogalicia.com.ar as admin/XXXX
 * ADMIN_USERNAME=admin
 * APICAST_ACCESS_TOKEN=XXXX # generated
 * ADMIN_ACCESS_TOKEN=XXXX # generated
-* WILDCARD_DOMAIN=devopenshift.bancogalicia.com.ar
+* WILDCARD_DOMAIN=devopenshift.xxxxx.com.ar
 * WILDCARD_POLICY=None
 * TENANT_NAME=3scale
 * MySQL User=mysql
@@ -173,13 +173,13 @@ deploymentconfig "zync" created
 service "zync" created
 service "zync-database" created
 deploymentconfig "zync-database" created --> Success
-Access your application via route '3scale-admin.devopenshift.bancogalicia.com.ar'
-Access your application via route 'master-admin.devopenshift.bancogalicia.com.ar'
-Access your application via route 'backend-3scale.devopenshift.bancogalicia.com.ar'
-Access your application via route '3scale.devopenshift.bancogalicia.com.ar
-Access your application via route 'api-3scale-apicast-staging.devopenshift.bancogalicia.com.ar'
-Access your application via route 'api-3scale-apicast-production.devopenshift.bancogalicia.com.ar'
-Access your application via route 'apicast-wildcard.devopenshift.bancogalicia.com.ar
+Access your application via route '3scale-admin.devopenshift.xxxx.com.ar'
+Access your application via route 'master-admin.devopenshift.xxxx.com.ar'
+Access your application via route 'backend-3scale.devopenshift.xxxx.com.ar'
+Access your application via route '3scale.devopenshift.xxxx.com.ar
+Access your application via route 'api-3scale-apicast-staging.devopenshift.xxxxx.com.ar'
+Access your application via route 'api-3scale-apicast-production.devopenshift.xxxx.com.ar'
+Access your application via route 'apicast-wildcard.devopenshift.xxxx.com.ar
 Run 'oc status' to view your app. 
 ```
 
